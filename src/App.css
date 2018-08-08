@@ -8,6 +8,7 @@ input[type="text"] {
     margin-left: 25px;
     padding: 5px;
     padding-right: 5px;
+    margin-top: 8px;
 }
 
 
@@ -33,10 +34,11 @@ body {
 
     
     #fknwork {
-        background-image: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0b45845f981a3622a38342b2b7ba770&auto=format&fit=crop&w=701&q=80");
         height: 565px;
         background-position: center;
         background-size: cover;
+        background: /* top, transparent #5e9ea5, faked with gradient */ linear-gradient( rgba(143, 208, 202, 0.45), rgb(241, 241, 241) ),
+         /* bottom, image */ url(https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-0.3.5…jEyMDd9&s=b0b4584…&auto=format&fit=crop&w=701&q=80);
     }
     
 
@@ -80,9 +82,12 @@ button:hover {
 
 .weinfo {
     margin-top: 49px;
-    padding-left: 42px;
-    
+    padding-left: 38px;
+    padding-right: 20px;
+    padding-bottom: 60px;
 }
+
+
 
 i.fas.fa-bolt {
     font-size: 19px;
